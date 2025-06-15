@@ -50,3 +50,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# IntelliJ/CLion project files
+.idea/
+
+# CLion build directory
+cmake-build-debug/
+
+# Optional: Ignore CMakeLists.txt if is generated or temporary
+CMakeLists.txt
+
