@@ -1,16 +1,9 @@
 CC = gcc
-
-
 CFLAGS = -Wall -Wextra -std=c11 -g
 
-
-SRC = main.c converter.c currency.c
-
-
+SRC = unit_converter.c
 TARGET = unit-converter
-
-
-HEADERS = converter.h currency.h
+HEADERS = unit_converter.h
 
 all: $(TARGET)
 
@@ -21,3 +14,5 @@ clean:
 	rm -f $(TARGET) *.o
 
 .PHONY: all clean
+
+
