@@ -1,15 +1,15 @@
 # Unit Converter
 
-🧮 A command-line unit converter built in C. Supports length, weight, temperature, and currency conversions.
+ A command-line unit converter built in C. Supports length, weight, temperature, and currency conversions.
 
-## 🔧 Features
+ Features
 
-- ✅ Length conversion (meter, inch, km, mile)
-- ✅ Weight conversion (kg, lb, gr, ons)
-- ✅ Temperature conversion (C, F, K)
-- ✅ Currency conversion (USD, EUR, GBP, TRY) — static rates
+-  Length conversion (meter, inch, km, mile)
+-  Weight conversion (kg, lb, gr, ons)
+-  Temperature conversion (C, F, K)
+-  Currency conversion (USD, EUR, GBP, TRY) — static rates
 
-## 🚀 Usage
+ Usage
 
 Compile the project using `make`:
 
@@ -23,7 +23,7 @@ make
 ./unit-converter --type=currency --from=USD --to=TRY --value=5
 
 ```
-📁 Project Structure:
+ Project Structure:
 
 ```css
 .
@@ -35,7 +35,7 @@ make
 └── .gitignore
 
 ```
-⚠️ Notes
+ Notes
 - Currency rates are hardcoded and not fetched from live APIs.
 
 - For currency accuracy, consider integrating an API like ExchangeRate API.
