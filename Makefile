@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -g
 
-SRC = unit_converter.c
+SRC = main.c unit_converter.c
 TARGET = unit-converter
 HEADERS = unit_converter.h
 
@@ -14,5 +14,6 @@ clean:
 	rm -f $(TARGET) *.o
 
 .PHONY: all clean
+
 
 
